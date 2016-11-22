@@ -1,5 +1,5 @@
 {
-  "name": "react-slider",
+  "name": "react-slider2",
   "version": "0.7.0",
   "description": "Slider component for React",
   "main": "react-slider.js",
@@ -9,7 +9,7 @@
     "slider",
     "component"
   ],
-  "author": "Michał Powaga <michalpowaga13@gmail.com>",
+  "author": "Alex Lebedev <alexey.broadcast@gmail.com> forked from Michał Powaga <michalpowaga13@gmail.com>",
   "contributors": [
     {
       "name": "Florian Klampfer",
