@@ -231,9 +231,11 @@
 
       // If an upperBound has not yet been determined (due to the component being hidden
       // during the mount event, or during the last resize), then calculate it now
-      if (this.state.upperBound === 0) {
-        this._handleResize();
-      }
+
+      // monkey patch
+      // if (this.state.upperBound === 0) {
+      this._handleResize();
+      // }
     },
 
     // Check if the arity of `value` or `defaultValue` matches the number of children (= number of custom handles).
